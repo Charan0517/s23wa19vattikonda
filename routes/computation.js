@@ -24,7 +24,7 @@ else{
   let y2=Math.acos(x);
   let y3=Math.sinh(x);
 
-  res.send('Math.pow() applied to '+x+' and '+y+' is ' +y1+"<br>" +'Math.sign() applied to '+y+' is '+y2+"<br>"+'Math.tanh()  applied to '+x+' is'+y3);
+  res.send('Math.abs() applied to '+x+' and '+y+' is ' +y1+"<br>" +'Math.acos() applied to '+y+' is '+y2+"<br>"+'Math.sinh()  applied to '+x+' is'+y3);
 }
 });
 
